@@ -1,8 +1,9 @@
 import sys
-N=int(sys.stdin.readline())
+input = sys.stdin.readline
+N=int(input())
 member_list=[]
 for i in range(N):
-    num,name=sys.stdin.readline().strip('\n').split()
+    num,name=sys.input().rstrip().split()
     num=int(num)
     member_list.append((num,i,name))
 member_list.sort()
