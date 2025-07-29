@@ -30,6 +30,7 @@ while index<N:
         end_index=N-1
 
 print(count)
+
 """
 N=int(input())
 num_list=list(map(int,input().split()))

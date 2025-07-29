@@ -35,7 +35,7 @@ sum_num=0
 count=0
 i=1
 
-while end_index<N//2+1:
+while end_index<N:
     sum_num+=i
     if sum_num==N:
         count+=1

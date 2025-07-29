@@ -16,6 +16,8 @@ for _ in range(N):
     else:
         p_num=num*(1.0)
         heapq.heappush(q,(p_num,num))
+
+
 """
 from queue import PriorityQueue
 q=PriorityQueue()
@@ -71,3 +73,4 @@ for i in range(N):
 for j in range(count):
    print(ans_list[j])
 """
+
